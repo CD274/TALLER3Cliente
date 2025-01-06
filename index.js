@@ -32,7 +32,7 @@ app.post('/iniciar-carrera', (req, res) => {
     }
 
     const nuevaCarrera = {
-        id: Date.now(),
+        id: Math.floor(Math.random() * 90000) + 10000,
         distanciaTotal: distancia,
         competidores: Array.from({ length: cantidadCompetidores }, (_, i) => ({
             id: i + 1,
@@ -82,7 +82,7 @@ app.put('/actualizar-carrera/:id', (req, res) => {
     res.json({ mensaje: 'Carrera actualizada con éxito.', carrera });
 });
 
-
+//FALTA
 app.get('/simular-carrera/:id', async (req, res) => {
     const { id } = req.params;
     const db = readDB();

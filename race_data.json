@@ -1,432 +1,557 @@
 {
   "carreras": [
     {
-      "id": 1736171310612,
-      "distanciaTotal": 50,
+      "id": 93743,
+      "distanciaTotal": 132,
       "competidores": [
         {
           "id": 1,
-          "velocidad": 8.579508543235328,
-          "distanciaRecorrida": 34.31803417294131
+          "velocidad": 13.19428105994782,
+          "distanciaRecorrida": 131.94281059947824
         },
         {
           "id": 2,
-          "velocidad": 6.704534347390789,
-          "distanciaRecorrida": 26.818137389563155
+          "velocidad": 7.958117155670143,
+          "distanciaRecorrida": 79.58117155670143
         },
         {
           "id": 3,
-          "velocidad": 13.55783422981144,
-          "distanciaRecorrida": 54.23133691924576
-        }
-      ],
-      "historial": [
-        {
-          "hora": 1,
-          "estado": {
-            "Corredor 1": 8.58,
-            "Corredor 2": 6.7,
-            "Corredor 3": 13.56
-          }
-        },
-        {
-          "hora": 2,
-          "estado": {
-            "Corredor 1": 17.16,
-            "Corredor 2": 13.41,
-            "Corredor 3": 27.12
-          }
-        },
-        {
-          "hora": 3,
-          "estado": {
-            "Corredor 1": 25.74,
-            "Corredor 2": 20.11,
-            "Corredor 3": 40.67
-          }
-        },
-        {
-          "hora": 4,
-          "estado": {
-            "Corredor 1": 34.32,
-            "Corredor 2": 26.82,
-            "Corredor 3": 54.23
-          }
-        }
-      ],
-      "finalizada": true,
-      "ganador": {
-        "id": 3,
-        "distanciaRecorrida": "54.23",
-        "tiempoTotal": 4
-      }
-    },
-    {
-      "id": 1736171791661,
-      "distanciaTotal": 100,
-      "competidores": [
-        {
-          "id": 1,
-          "velocidad": 7.724109587572643,
-          "distanciaRecorrida": 61.79287670058114
-        },
-        {
-          "id": 2,
-          "velocidad": 5.236125934251361,
-          "distanciaRecorrida": 41.88900747401089
-        },
-        {
-          "id": 3,
-          "velocidad": 12.669934667325025,
-          "distanciaRecorrida": 101.3594773386002
+          "velocidad": 10.804592440343612,
+          "distanciaRecorrida": 108.04592440343612
         },
         {
           "id": 4,
-          "velocidad": 5.817392872384783,
-          "distanciaRecorrida": 46.539142979078264
+          "velocidad": 10.454593098292834,
+          "distanciaRecorrida": 104.54593098292834
         },
         {
           "id": 5,
-          "velocidad": 13.710914916787322,
-          "distanciaRecorrida": 109.68731933429856
+          "velocidad": 8.525462474130272,
+          "distanciaRecorrida": 85.25462474130273
         },
         {
           "id": 6,
-          "velocidad": 12.15424595963572,
-          "distanciaRecorrida": 97.23396767708574
+          "velocidad": 8.90233957218638,
+          "distanciaRecorrida": 89.02339572186379
         },
         {
           "id": 7,
-          "velocidad": 12.75917492565849,
-          "distanciaRecorrida": 102.0733994052679
+          "velocidad": 14.326016712452693,
+          "distanciaRecorrida": 132
         },
         {
           "id": 8,
-          "velocidad": 12.729626541919162,
-          "distanciaRecorrida": 101.8370123353533
+          "velocidad": 6.879862236223682,
+          "distanciaRecorrida": 61.918760126013126
         },
         {
           "id": 9,
-          "velocidad": 11.681960412761537,
-          "distanciaRecorrida": 93.45568330209231
+          "velocidad": 5.966748921762672,
+          "distanciaRecorrida": 53.70074029586405
         },
         {
           "id": 10,
-          "velocidad": 8.630939955429042,
-          "distanciaRecorrida": 69.04751964343234
+          "velocidad": 5.173398464976698,
+          "distanciaRecorrida": 46.56058618479029
+        },
+        {
+          "id": 11,
+          "velocidad": 14.470559278224925,
+          "distanciaRecorrida": 130.23503350402433
+        },
+        {
+          "id": 12,
+          "velocidad": 13.18637389486646,
+          "distanciaRecorrida": 118.67736505379816
         }
       ],
       "historial": [
         {
           "hora": 1,
           "estado": {
-            "Corredor 1": 7.72,
-            "Corredor 2": 5.24,
-            "Corredor 3": 12.67,
-            "Corredor 4": 5.82,
-            "Corredor 5": 13.71,
-            "Corredor 6": 12.15,
-            "Corredor 7": 12.76,
-            "Corredor 8": 12.73,
-            "Corredor 9": 11.68,
-            "Corredor 10": 8.63
+            "Corredor 1": 13.19,
+            "Corredor 2": 7.96,
+            "Corredor 3": 10.8,
+            "Corredor 4": 10.45,
+            "Corredor 5": 8.53,
+            "Corredor 6": 8.9,
+            "Corredor 7": 14.33,
+            "Corredor 8": 6.88,
+            "Corredor 9": 5.97,
+            "Corredor 10": 5.17,
+            "Corredor 11": 14.47,
+            "Corredor 12": 13.19
           }
         },
         {
           "hora": 2,
           "estado": {
-            "Corredor 1": 15.45,
-            "Corredor 2": 10.47,
-            "Corredor 3": 25.34,
-            "Corredor 4": 11.63,
-            "Corredor 5": 27.42,
-            "Corredor 6": 24.31,
-            "Corredor 7": 25.52,
-            "Corredor 8": 25.46,
-            "Corredor 9": 23.36,
-            "Corredor 10": 17.26
+            "Corredor 1": 26.39,
+            "Corredor 2": 15.92,
+            "Corredor 3": 21.61,
+            "Corredor 4": 20.91,
+            "Corredor 5": 17.05,
+            "Corredor 6": 17.8,
+            "Corredor 7": 28.65,
+            "Corredor 8": 13.76,
+            "Corredor 9": 11.93,
+            "Corredor 10": 10.35,
+            "Corredor 11": 28.94,
+            "Corredor 12": 26.37
           }
         },
         {
           "hora": 3,
           "estado": {
-            "Corredor 1": 23.17,
-            "Corredor 2": 15.71,
-            "Corredor 3": 38.01,
-            "Corredor 4": 17.45,
-            "Corredor 5": 41.13,
-            "Corredor 6": 36.46,
-            "Corredor 7": 38.28,
-            "Corredor 8": 38.19,
-            "Corredor 9": 35.05,
-            "Corredor 10": 25.89
+            "Corredor 1": 39.58,
+            "Corredor 2": 23.87,
+            "Corredor 3": 32.41,
+            "Corredor 4": 31.36,
+            "Corredor 5": 25.58,
+            "Corredor 6": 26.71,
+            "Corredor 7": 42.98,
+            "Corredor 8": 20.64,
+            "Corredor 9": 17.9,
+            "Corredor 10": 15.52,
+            "Corredor 11": 43.41,
+            "Corredor 12": 39.56
           }
         },
         {
           "hora": 4,
           "estado": {
-            "Corredor 1": 30.9,
-            "Corredor 2": 20.94,
-            "Corredor 3": 50.68,
-            "Corredor 4": 23.27,
-            "Corredor 5": 54.84,
-            "Corredor 6": 48.62,
-            "Corredor 7": 51.04,
-            "Corredor 8": 50.92,
-            "Corredor 9": 46.73,
-            "Corredor 10": 34.52
+            "Corredor 1": 52.78,
+            "Corredor 2": 31.83,
+            "Corredor 3": 43.22,
+            "Corredor 4": 41.82,
+            "Corredor 5": 34.1,
+            "Corredor 6": 35.61,
+            "Corredor 7": 57.3,
+            "Corredor 8": 27.52,
+            "Corredor 9": 23.87,
+            "Corredor 10": 20.69,
+            "Corredor 11": 57.88,
+            "Corredor 12": 52.75
           }
         },
         {
           "hora": 5,
           "estado": {
-            "Corredor 1": 38.62,
-            "Corredor 2": 26.18,
-            "Corredor 3": 63.35,
-            "Corredor 4": 29.09,
-            "Corredor 5": 68.55,
-            "Corredor 6": 60.77,
-            "Corredor 7": 63.8,
-            "Corredor 8": 63.65,
-            "Corredor 9": 58.41,
-            "Corredor 10": 43.15
+            "Corredor 1": 65.97,
+            "Corredor 2": 39.79,
+            "Corredor 3": 54.02,
+            "Corredor 4": 52.27,
+            "Corredor 5": 42.63,
+            "Corredor 6": 44.51,
+            "Corredor 7": 71.63,
+            "Corredor 8": 34.4,
+            "Corredor 9": 29.83,
+            "Corredor 10": 25.87,
+            "Corredor 11": 72.35,
+            "Corredor 12": 65.93
           }
         },
         {
           "hora": 6,
           "estado": {
-            "Corredor 1": 46.34,
-            "Corredor 2": 31.42,
-            "Corredor 3": 76.02,
-            "Corredor 4": 34.9,
-            "Corredor 5": 82.27,
-            "Corredor 6": 72.93,
-            "Corredor 7": 76.56,
-            "Corredor 8": 76.38,
-            "Corredor 9": 70.09,
-            "Corredor 10": 51.79
+            "Corredor 1": 79.17,
+            "Corredor 2": 47.75,
+            "Corredor 3": 64.83,
+            "Corredor 4": 62.73,
+            "Corredor 5": 51.15,
+            "Corredor 6": 53.41,
+            "Corredor 7": 85.96,
+            "Corredor 8": 41.28,
+            "Corredor 9": 35.8,
+            "Corredor 10": 31.04,
+            "Corredor 11": 86.82,
+            "Corredor 12": 79.12
           }
         },
         {
           "hora": 7,
           "estado": {
-            "Corredor 1": 54.07,
-            "Corredor 2": 36.65,
-            "Corredor 3": 88.69,
-            "Corredor 4": 40.72,
-            "Corredor 5": 95.98,
-            "Corredor 6": 85.08,
-            "Corredor 7": 89.31,
-            "Corredor 8": 89.11,
-            "Corredor 9": 81.77,
-            "Corredor 10": 60.42
+            "Corredor 1": 92.36,
+            "Corredor 2": 55.71,
+            "Corredor 3": 75.63,
+            "Corredor 4": 73.18,
+            "Corredor 5": 59.68,
+            "Corredor 6": 62.32,
+            "Corredor 7": 100.28,
+            "Corredor 8": 48.16,
+            "Corredor 9": 41.77,
+            "Corredor 10": 36.21,
+            "Corredor 11": 101.29,
+            "Corredor 12": 92.3
           }
         },
         {
           "hora": 8,
           "estado": {
-            "Corredor 1": 61.79,
-            "Corredor 2": 41.89,
-            "Corredor 3": 101.36,
-            "Corredor 4": 46.54,
-            "Corredor 5": 109.69,
-            "Corredor 6": 97.23,
-            "Corredor 7": 102.07,
-            "Corredor 8": 101.84,
-            "Corredor 9": 93.46,
-            "Corredor 10": 69.05
+            "Corredor 1": 105.55,
+            "Corredor 2": 63.66,
+            "Corredor 3": 86.44,
+            "Corredor 4": 83.64,
+            "Corredor 5": 68.2,
+            "Corredor 6": 71.22,
+            "Corredor 7": 114.61,
+            "Corredor 8": 55.04,
+            "Corredor 9": 47.73,
+            "Corredor 10": 41.39,
+            "Corredor 11": 115.76,
+            "Corredor 12": 105.49
+          }
+        },
+        {
+          "hora": 9,
+          "estado": {
+            "Corredor 1": 118.75,
+            "Corredor 2": 71.62,
+            "Corredor 3": 97.24,
+            "Corredor 4": 94.09,
+            "Corredor 5": 76.73,
+            "Corredor 6": 80.12,
+            "Corredor 7": 128.93,
+            "Corredor 8": 61.92,
+            "Corredor 9": 53.7,
+            "Corredor 10": 46.56,
+            "Corredor 11": 130.24,
+            "Corredor 12": 118.68
+          }
+        },
+        {
+          "hora": 10,
+          "estado": {
+            "Corredor 1": 131.94,
+            "Corredor 2": 79.58,
+            "Corredor 3": 108.05,
+            "Corredor 4": 104.55,
+            "Corredor 5": 85.25,
+            "Corredor 6": 89.02,
+            "Corredor 7": 132,
+            "Corredor 8": 61.92,
+            "Corredor 9": 53.7,
+            "Corredor 10": 46.56,
+            "Corredor 11": 130.24,
+            "Corredor 12": 118.68
           }
         }
       ],
       "finalizada": true,
       "ganador": {
-        "id": 3,
-        "distanciaRecorrida": "101.36",
-        "tiempoTotal": 8
+        "id": 7,
+        "distanciaRecorrida": "132.00",
+        "tiempoTotal": 10
       }
     },
     {
-      "id": 1736171971016,
-      "distanciaTotal": 100,
+      "id": 59387,
+      "distanciaTotal": 12,
       "competidores": [
         {
           "id": 1,
-          "velocidad": 11.96114381398256,
-          "distanciaRecorrida": 95.68915051186048
+          "velocidad": 10.78934812247886,
+          "distanciaRecorrida": 10.78934812247886
         },
         {
           "id": 2,
-          "velocidad": 9.685702313769795,
-          "distanciaRecorrida": 77.48561851015836
+          "velocidad": 5.582965717830948,
+          "distanciaRecorrida": 5.582965717830948
         },
         {
           "id": 3,
-          "velocidad": 11.78175021130702,
-          "distanciaRecorrida": 94.25400169045616
+          "velocidad": 10.437707984479587,
+          "distanciaRecorrida": 10.437707984479587
         },
         {
           "id": 4,
-          "velocidad": 10.339777855451654,
-          "distanciaRecorrida": 82.71822284361325
+          "velocidad": 5.286446225601775,
+          "distanciaRecorrida": 5.286446225601775
         },
         {
           "id": 5,
-          "velocidad": 5.028701003505953,
-          "distanciaRecorrida": 40.229608028047615
+          "velocidad": 10.499480965826326,
+          "distanciaRecorrida": 10.499480965826326
         },
         {
           "id": 6,
-          "velocidad": 7.948294596124683,
-          "distanciaRecorrida": 63.58635676899746
+          "velocidad": 13.74127427281012,
+          "distanciaRecorrida": 12
         },
         {
           "id": 7,
-          "velocidad": 5.041348090366473,
-          "distanciaRecorrida": 40.33078472293178
+          "velocidad": 7.7159501171421985,
+          "distanciaRecorrida": 0
         },
         {
           "id": 8,
-          "velocidad": 5.0497654601539015,
-          "distanciaRecorrida": 40.398123681231205
+          "velocidad": 9.89814150681301,
+          "distanciaRecorrida": 0
         },
         {
           "id": 9,
-          "velocidad": 11.592206547692388,
-          "distanciaRecorrida": 92.73765238153909
+          "velocidad": 12.167884780144117,
+          "distanciaRecorrida": 0
         },
         {
           "id": 10,
-          "velocidad": 12.89798425373916,
-          "distanciaRecorrida": 100
+          "velocidad": 8.309556984511401,
+          "distanciaRecorrida": 0
+        },
+        {
+          "id": 11,
+          "velocidad": 10.903205223617023,
+          "distanciaRecorrida": 0
+        },
+        {
+          "id": 12,
+          "velocidad": 10.586269258727777,
+          "distanciaRecorrida": 0
+        },
+        {
+          "id": 13,
+          "velocidad": 10.41736790303485,
+          "distanciaRecorrida": 0
+        },
+        {
+          "id": 14,
+          "velocidad": 9.532086186374588,
+          "distanciaRecorrida": 0
+        },
+        {
+          "id": 15,
+          "velocidad": 12.367744754138103,
+          "distanciaRecorrida": 0
+        },
+        {
+          "id": 16,
+          "velocidad": 10.801986884902755,
+          "distanciaRecorrida": 0
+        },
+        {
+          "id": 17,
+          "velocidad": 10.918687282210684,
+          "distanciaRecorrida": 0
+        },
+        {
+          "id": 18,
+          "velocidad": 14.05138241455359,
+          "distanciaRecorrida": 0
+        },
+        {
+          "id": 19,
+          "velocidad": 11.67066199223819,
+          "distanciaRecorrida": 0
+        },
+        {
+          "id": 20,
+          "velocidad": 6.180683762257095,
+          "distanciaRecorrida": 0
+        },
+        {
+          "id": 21,
+          "velocidad": 8.275378826742541,
+          "distanciaRecorrida": 0
+        },
+        {
+          "id": 22,
+          "velocidad": 6.455584059645599,
+          "distanciaRecorrida": 0
+        },
+        {
+          "id": 23,
+          "velocidad": 13.114151624650471,
+          "distanciaRecorrida": 0
         }
       ],
       "historial": [
         {
           "hora": 1,
           "estado": {
-            "Corredor 1": 11.96,
-            "Corredor 2": 9.69,
-            "Corredor 3": 11.78,
-            "Corredor 4": 10.34,
-            "Corredor 5": 5.03,
-            "Corredor 6": 7.95,
-            "Corredor 7": 5.04,
-            "Corredor 8": 5.05,
-            "Corredor 9": 11.59,
-            "Corredor 10": 12.9
-          }
-        },
-        {
-          "hora": 2,
-          "estado": {
-            "Corredor 1": 23.92,
-            "Corredor 2": 19.37,
-            "Corredor 3": 23.56,
-            "Corredor 4": 20.68,
-            "Corredor 5": 10.06,
-            "Corredor 6": 15.9,
-            "Corredor 7": 10.08,
-            "Corredor 8": 10.1,
-            "Corredor 9": 23.18,
-            "Corredor 10": 25.8
-          }
-        },
-        {
-          "hora": 3,
-          "estado": {
-            "Corredor 1": 35.88,
-            "Corredor 2": 29.06,
-            "Corredor 3": 35.35,
-            "Corredor 4": 31.02,
-            "Corredor 5": 15.09,
-            "Corredor 6": 23.84,
-            "Corredor 7": 15.12,
-            "Corredor 8": 15.15,
-            "Corredor 9": 34.78,
-            "Corredor 10": 38.69
-          }
-        },
-        {
-          "hora": 4,
-          "estado": {
-            "Corredor 1": 47.84,
-            "Corredor 2": 38.74,
-            "Corredor 3": 47.13,
-            "Corredor 4": 41.36,
-            "Corredor 5": 20.11,
-            "Corredor 6": 31.79,
-            "Corredor 7": 20.17,
-            "Corredor 8": 20.2,
-            "Corredor 9": 46.37,
-            "Corredor 10": 51.59
-          }
-        },
-        {
-          "hora": 5,
-          "estado": {
-            "Corredor 1": 59.81,
-            "Corredor 2": 48.43,
-            "Corredor 3": 58.91,
-            "Corredor 4": 51.7,
-            "Corredor 5": 25.14,
-            "Corredor 6": 39.74,
-            "Corredor 7": 25.21,
-            "Corredor 8": 25.25,
-            "Corredor 9": 57.96,
-            "Corredor 10": 64.49
-          }
-        },
-        {
-          "hora": 6,
-          "estado": {
-            "Corredor 1": 71.77,
-            "Corredor 2": 58.11,
-            "Corredor 3": 70.69,
-            "Corredor 4": 62.04,
-            "Corredor 5": 30.17,
-            "Corredor 6": 47.69,
-            "Corredor 7": 30.25,
-            "Corredor 8": 30.3,
-            "Corredor 9": 69.55,
-            "Corredor 10": 77.39
-          }
-        },
-        {
-          "hora": 7,
-          "estado": {
-            "Corredor 1": 83.73,
-            "Corredor 2": 67.8,
-            "Corredor 3": 82.47,
-            "Corredor 4": 72.38,
-            "Corredor 5": 35.2,
-            "Corredor 6": 55.64,
-            "Corredor 7": 35.29,
-            "Corredor 8": 35.35,
-            "Corredor 9": 81.15,
-            "Corredor 10": 90.29
-          }
-        },
-        {
-          "hora": 8,
-          "estado": {
-            "Corredor 1": 95.69,
-            "Corredor 2": 77.49,
-            "Corredor 3": 94.25,
-            "Corredor 4": 82.72,
-            "Corredor 5": 40.23,
-            "Corredor 6": 63.59,
-            "Corredor 7": 40.33,
-            "Corredor 8": 40.4,
-            "Corredor 9": 92.74,
-            "Corredor 10": 100
+            "Corredor 1": 10.79,
+            "Corredor 2": 5.58,
+            "Corredor 3": 10.44,
+            "Corredor 4": 5.29,
+            "Corredor 5": 10.5,
+            "Corredor 6": 12,
+            "Corredor 7": 0,
+            "Corredor 8": 0,
+            "Corredor 9": 0,
+            "Corredor 10": 0,
+            "Corredor 11": 0,
+            "Corredor 12": 0,
+            "Corredor 13": 0,
+            "Corredor 14": 0,
+            "Corredor 15": 0,
+            "Corredor 16": 0,
+            "Corredor 17": 0,
+            "Corredor 18": 0,
+            "Corredor 19": 0,
+            "Corredor 20": 0,
+            "Corredor 21": 0,
+            "Corredor 22": 0,
+            "Corredor 23": 0
           }
         }
       ],
       "finalizada": true,
       "ganador": {
-        "id": 10,
-        "distanciaRecorrida": "100.00",
-        "tiempoTotal": 8
+        "id": 6,
+        "distanciaRecorrida": "12.00",
+        "tiempoTotal": 1
+      }
+    },
+    {
+      "id": 10466,
+      "distanciaTotal": 10,
+      "competidores": [
+        {
+          "id": 1,
+          "velocidad": 7.642045350424038,
+          "distanciaRecorrida": 10
+        },
+        {
+          "id": 2,
+          "velocidad": 7.388776774160519,
+          "distanciaRecorrida": 7.388776774160519
+        },
+        {
+          "id": 3,
+          "velocidad": 9.543743183969703,
+          "distanciaRecorrida": 9.543743183969703
+        }
+      ],
+      "historial": [
+        {
+          "hora": 1,
+          "estado": {
+            "Corredor 1": 7.64,
+            "Corredor 2": 7.39,
+            "Corredor 3": 9.54
+          }
+        },
+        {
+          "hora": 2,
+          "estado": {
+            "Corredor 1": 10,
+            "Corredor 2": 7.39,
+            "Corredor 3": 9.54
+          }
+        }
+      ],
+      "finalizada": true,
+      "ganador": {
+        "id": 1,
+        "distanciaRecorrida": "10.00",
+        "tiempoTotal": 2
+      }
+    },
+    {
+      "id": 72062,
+      "distanciaTotal": 5,
+      "competidores": [
+        {
+          "id": 1,
+          "velocidad": 12.185954391833267,
+          "distanciaRecorrida": 5
+        },
+        {
+          "id": 2,
+          "velocidad": 8.041226019396678,
+          "distanciaRecorrida": 0
+        },
+        {
+          "id": 3,
+          "velocidad": 12.208385777916671,
+          "distanciaRecorrida": 0
+        },
+        {
+          "id": 4,
+          "velocidad": 11.420205016785602,
+          "distanciaRecorrida": 0
+        },
+        {
+          "id": 5,
+          "velocidad": 9.61517383791223,
+          "distanciaRecorrida": 0
+        }
+      ],
+      "historial": [
+        {
+          "hora": 1,
+          "estado": {
+            "Corredor 1": 5,
+            "Corredor 2": 0,
+            "Corredor 3": 0,
+            "Corredor 4": 0,
+            "Corredor 5": 0
+          }
+        }
+      ],
+      "finalizada": true,
+      "ganador": {
+        "id": 1,
+        "distanciaRecorrida": "5.00",
+        "tiempoTotal": 1
+      }
+    },
+    {
+      "id": 69474,
+      "distanciaTotal": 25,
+      "competidores": [
+        {
+          "id": 1,
+          "velocidad": 9.716078823860439,
+          "distanciaRecorrida": 19.432157647720878
+        },
+        {
+          "id": 2,
+          "velocidad": 14.232434322157918,
+          "distanciaRecorrida": 25
+        },
+        {
+          "id": 3,
+          "velocidad": 14.435756678804218,
+          "distanciaRecorrida": 14.435756678804218
+        },
+        {
+          "id": 4,
+          "velocidad": 9.374480779135048,
+          "distanciaRecorrida": 9.374480779135048
+        },
+        {
+          "id": 5,
+          "velocidad": 10.504262533982509,
+          "distanciaRecorrida": 10.504262533982509
+        }
+      ],
+      "historial": [
+        {
+          "hora": 1,
+          "estado": {
+            "Corredor 1": 9.72,
+            "Corredor 2": 14.23,
+            "Corredor 3": 14.44,
+            "Corredor 4": 9.37,
+            "Corredor 5": 10.5
+          }
+        },
+        {
+          "hora": 2,
+          "estado": {
+            "Corredor 1": 19.43,
+            "Corredor 2": 25,
+            "Corredor 3": 14.44,
+            "Corredor 4": 9.37,
+            "Corredor 5": 10.5
+          }
+        }
+      ],
+      "finalizada": true,
+      "ganador": {
+        "id": 2,
+        "distanciaRecorrida": "25.00",
+        "tiempoTotal": 2
       }
     }
   ]
