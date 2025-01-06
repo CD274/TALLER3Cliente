@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eliminar Carrera"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="16dp"
+        android:textColor="@color/black" />
+
+    <!-- Campo para ID de la carrera -->
+    <Spinner
+        android:id="@+id/spinnerCarreras"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Botón para eliminar la carrera -->
+    <Button
+        android:id="@+id/btnEliminarCarrera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eliminar Carrera"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:padding="12dp" />
+
+    <!-- ScrollView para los resultados -->
+</LinearLayout>

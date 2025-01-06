@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crear Carrera"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="16dp"
+        android:textColor="@color/black" />
+
+    <!-- Campo para número de competidores -->
+    <EditText
+        android:id="@+id/txtCompetidores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Número de Competidores"
+        android:inputType="number"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Campo para distancia -->
+    <EditText
+        android:id="@+id/txtDistancia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Distancia Total (Km)"
+        android:inputType="number"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Botón para crear carrera -->
+    <Button
+        android:id="@+id/btnCrearCarrera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crear Carrera"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:padding="12dp" />
+
+    <Button
+        android:id="@+id/btnVerCarreras"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver Carreras" />
+
+    <!-- ScrollView para los resultados -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp">
+
+        <!-- TextView dentro del ScrollView para mostrar las carreras -->
+        <TextView
+            android:id="@+id/txtCarreras"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Carreras:"
+            android:textSize="16sp" />
+    </ScrollView>
+
+</LinearLayout>

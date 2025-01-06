@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Actualizar Carrera"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="16dp"
+        android:textColor="@color/black" />
+
+    <!-- Campo para ID de la carrera -->
+    <EditText
+        android:id="@+id/txtCarreraId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID de la Carrera"
+        android:inputType="number"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Botón de Buscar -->
+    <Button
+        android:id="@+id/btnBuscarCarrera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buscar Carrera"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Campo para nuevos competidores -->
+    <EditText
+        android:id="@+id/txtNuevosCompetidores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nuevos Competidores"
+        android:inputType="number"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Campo para nueva distancia -->
+    <EditText
+        android:id="@+id/txtNuevaDistancia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nueva Distancia (km)"
+        android:inputType="number"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Botón para actualizar la carrera -->
+    <Button
+        android:id="@+id/btnActualizarCarrera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actualizar Carrera"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:padding="12dp" />
+
+    <!-- Botón para ver carreras -->
+    <Button
+        android:id="@+id/btnVerCarreras"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver Carreras" />
+
+    <!-- ScrollView para los resultados -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp">
+
+        <!-- TextView dentro del ScrollView para mostrar las carreras -->
+        <TextView
+            android:id="@+id/txtCarreras"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Carreras:"
+            android:textSize="16sp" />
+    </ScrollView>
+</LinearLayout>
