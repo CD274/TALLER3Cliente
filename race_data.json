@@ -447,55 +447,6 @@
       }
     },
     {
-      "id": 72062,
-      "distanciaTotal": 5,
-      "competidores": [
-        {
-          "id": 1,
-          "velocidad": 12.185954391833267,
-          "distanciaRecorrida": 5
-        },
-        {
-          "id": 2,
-          "velocidad": 8.041226019396678,
-          "distanciaRecorrida": 0
-        },
-        {
-          "id": 3,
-          "velocidad": 12.208385777916671,
-          "distanciaRecorrida": 0
-        },
-        {
-          "id": 4,
-          "velocidad": 11.420205016785602,
-          "distanciaRecorrida": 0
-        },
-        {
-          "id": 5,
-          "velocidad": 9.61517383791223,
-          "distanciaRecorrida": 0
-        }
-      ],
-      "historial": [
-        {
-          "hora": 1,
-          "estado": {
-            "Corredor 1": 5,
-            "Corredor 2": 0,
-            "Corredor 3": 0,
-            "Corredor 4": 0,
-            "Corredor 5": 0
-          }
-        }
-      ],
-      "finalizada": true,
-      "ganador": {
-        "id": 1,
-        "distanciaRecorrida": "5.00",
-        "tiempoTotal": 1
-      }
-    },
-    {
       "id": 69474,
       "distanciaTotal": 25,
       "competidores": [
